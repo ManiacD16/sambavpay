@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-04T19:44:06.486Z",
+  "validationType": "static source validation",
+  "syntax": {
+    "filesChecked": 49,
+    "failures": []
+  },
+  "imports": {
+    "sourceFilesChecked": 48,
+    "unresolved": []
+  },
+  "routes": {
+    "declared": [
+      "/",
+      "/company",
+      "/contact",
+      "/developers",
+      "/industries",
+      "/login",
+      "/products/bbps",
+      "/products/payment-gateway",
+      "/products/payment-orchestration",
+      "/products/payouts",
+      "/products/upi-cash-withdrawal",
+      "/products/verification-api",
+      "/security"
+    ],
+    "literalLinksChecked": 33,
+    "broken": []
+  },
+  "assets": [
+    {
+      "asset": "/brand/brand-symbol.png",
+      "exists": true,
+      "bytes": 225700
+    },
+    {
+      "asset": "/brand/logo-mark.png",
+      "exists": true,
+      "bytes": 13658
+    },
+    {
+      "asset": "/og/sambhav-pay-og.png",
+      "exists": true,
+      "bytes": 179993
+    }
+  ],
+  "accessibilitySourceChecks": {
+    "unsafeBlankTargets": [],
+    "staticIds": [
+      "api",
+      "auth",
+      "companyWebsite",
+      "demo-form",
+      "errors",
+      "events",
+      "hero-orchestration-caption",
+      "inner-visual-caption",
+      "interest",
+      "main-content",
+      "message",
+      "mobile-navigation",
+      "products-menu",
+      "products-menu-button",
+      "sandbox",
+      "webhooks"
+    ]
+  },
+  "limitations": [
+    "This is not a native Next.js production build.",
+    "This is not a browser-rendering, animation-timing, device, or Lighthouse result.",
+    "Dependency installation was blocked by the configured package registry returning 404 for @types/node."
+  ]
+}
